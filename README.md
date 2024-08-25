@@ -2,6 +2,8 @@
 This project is a Twitter enhancement bot that utilizes LangChain and LangGraph to improve and critique Twitter posts. 
 The bot operates by generating an initial tweet and then reflecting on it to provide recommendations or revisions for better engagement and virality.
 
+**Author: Ish Jha Contact info: ishjha1929@gmail.com / jha.13@alumni.iitj.ac.in (please feel free to contact for any doubts or collabrative projects ! )**
+
 **Features**
 Tweet Generation: Automatically generates Twitter posts based on user input.
 Reflection and Critique: Provides detailed feedback on generated tweets, including style, length, and virality recommendations.
@@ -44,3 +46,5 @@ Conditional Logic:
 
 The project uses LangGraph to handle the flow between tweet generation and reflection.
 If more than six messages are generated, the process ends; otherwise, the reflection process continues.
+
+**Author: Ish Jha Contact info: ishjha1929@gmail.com / jha.13@alumni.iitj.ac.in (please feel free to contact for any doubts or collabrative projects ! )**
