@@ -10,27 +10,39 @@ Reflection and Critique: Provides detailed feedback on generated tweets, includi
 LangGraph Integration: Uses a graph-based approach to determine the flow of operations between tweet generation and reflection.
 
 **Requirements**
+
 Python 3.x
 langchain_core
 langgraph
 langchain_google_genai
 dotenv
+
 **Setup**
+
 Clone the repository:
+
 git clone https://github.com/IshJha/langgraph_reflexion_twitter.git
+
 cd langgraph-twitter-bot
+
 Install the required Python packages:
 
+
 If using Pipfile:
+
 pipenv install
 
 **Set up environment variables:**
+
 Create a .env file in the root directory and add your Google API key:
+
 GOOGLE_API_KEY=<your-api-key>
 
 Run the application:
+
 python main.py
-Project Structure
+
+**Project Structure**
 main.py: The entry point of the application. It sets up the message graph and invokes the tweet generation and reflection processes.
 chains.py: Contains the logic for generating and reflecting on tweets using LangChain and Google Generative AI.
 **Flow of the Project**
